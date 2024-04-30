@@ -3,80 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/all-style.css">
+    <title>Intech Digital It Institute |- Bangladesh</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <!-- ----------------------NAVIGATION--------------------- -->
-    <nav>
-        <div class="logo"><a href="//#" title="Intech Digital">Intech<span>Digital</span></a></div>
-
-            <div class="nav-links">
-                <ul>
-                    <li><a href="//#" title="Home">Home</a></li>
-                    <li><a href="//#" title="Course Page">Course Page</a></li>
-                    <li><a href="//#" title="FAQ">FAQ</a></li>
-                    <li><a href="//#" title="Privacy Policy">Privacy Policy</a></li>
-                    <li><a href="//#" title="Account"><i class="fa-regular fa-circle-user"></i></a></li>
-                </ul>
-            </div>
-    </nav>
-
-    <!-- ----------------------CONTENT--------------------- -->
-    <section class="body-content">
-        <h4> Frontend <span>Web Designer</span>&nbsp; <i class="fa-solid fa-person-biking fa-bounce"></i></h4>
+    <section class="login-aria" id="user-login-aria">
+        <a href="#" class="xmark">x</a>
+        <br>
+                <h3>Login</h3>
+                <p class="error-smg" id="error-smg">! Username or password are not march !</p>
+            <input type="text" id="UserName" placeholder="User Name"> <br><br>
+            <input type="password" name="password" id="Password" placeholder="Password"> <br>
+            <button type="submit" onclick="varify()">Login</button>
+            <p class="dhas">Don't have an account? <a href="#">Sign Up</a></p>
+            <br>
     </section>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-    <!-- ----------------------FOOTER--------------------- -->
-
-    <footer>
-        <div class="footer-container-one">
-            <div class="logo footer-logo"><a href="//#" title="Intech Digital">Intech<span>Digital</span></a></div>
-            <br>
-                <address class="footer-address" style="margin-left: 20px;font-size: 20px;">5341 Chilahati, Rangpur, Bangladesh</address>
-               
-                <br><br><br>
-
-                <div class="social-links">
-                    <a href="//#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="//#" title="Youtube"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="//#" title="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="//#" title="Github"><i class="fa-brands fa-github"></i></a>
-                    <a href="//#" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="//#" title="Discord"><i class="fa-brands fa-discord"></i></a>
-                </div>
+    <header>
+        <div class="site-logo">
+            <a href="">CxS&abreve;.</a>
         </div>
+            <div class="three-line-bar">
+                <button id="threeLineBar">≡</button>
+            </div>
+            <nav>
+                <ul id="navUl">
+                    <button id="navXmarkBtn">X</button>
+                    <li><a class="active" href="#" style="--i:1;">Home</a></li>
+                    <li><a href="#" style="--i:2;">About</a></li>
+                    <li><a href="/all-users/" style="--i:3;">All Users</a></li>
+                    <li><a href="#" style="--i:5;">Contact</a></li>
+                    <li><a id="Login-Btn" href="#login" style="--i:4;">Login</a></li>
+                </ul>
+            </nav>
+    </header>
+    
+    
+    <br><br>
 
 
-        <div class="footer-container-two">
-            <ul>
-                <h3>Quick Links</h3>
-                <br>
-                <li><a href="//#" title="Home">Home</a></li>
-                <li><a href="//#" title="Course Page">Course Page</a></li>
-                <li><a href="//#" title="FAQ">FAQ</a></li>
-                <li><a href="//#" title="Privacy Policy">Privacy Policy</a></li>
-            </ul>
-        </div>
-        <div class="footer-container-three">
-            <ul>
-                <h3>Other Links</h3>
-                <br>
-                <li><a href="//#" title="About Us">Phone <br> +880 186 430 8098</a></li>
-                <li><a href="mailto:mdroknuzzamanzual@gmail.com" title="Contact Us">Email <br> mdroknuzzamanzual@gmail.com</a></li>
-            </ul>
+    <section class="user-data">
+        <img src="/main-bg-img/screenshot.png"> 
+            <div class="user-contant">
+                    <div class="user-profail-pic">    
+                        <img id="user-img" src="" alt="Login To Show Data">
+                    </div>
+                <p id="user-name">Null Null Null<!-- USER DISPLAY NAME HERE --></p>
+                <address id="user-address">
+                    Null Null Null
+                    <!-- USER ADDRESS HERE -->
+                </address>
+            </div>
 
-        </div>
+    </section>
 
-
-        <p class="copy">Copyright &copy; 2011 - <a href="//#" style="color: #00ffc3;">Intech Digital</a>. All Rights Reserved</p>
-    </footer>
-
-
-
-    <!-- ----------------------FONT AWESOME CDN LINK--------------------- -->
-    <script src="https://kit.fontawesome.com/dcec21fb7a.js" crossorigin="anonymous"></script>
+    <script src="/js/htAccess.js"></script>
+    <script src="/js/function.js"></script>
+    <script src="/js/users.js"></script>
+    <script src="/js/navigation.js"></script>
 </body>
 </html>
